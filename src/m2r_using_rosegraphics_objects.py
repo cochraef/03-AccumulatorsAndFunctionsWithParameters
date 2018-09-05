@@ -88,6 +88,7 @@ def example1():
     window = rg.RoseWindow(500, 300, 'Example 1: An empty window')
     window.close_on_mouse_click()
 
+
 def example2():
     """ Displays two Point objects. """
     # ------------------------------------------------------------------

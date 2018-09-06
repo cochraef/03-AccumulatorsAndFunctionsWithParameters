@@ -130,7 +130,7 @@ def sum_powers_in_range(m, n, p):
     # ------------------------------------------------------------------
 
     value = 0
-    for k in range(n - m):
+    for k in range(n - m + 1):
         value = value + ((k+m) ** p)
 
     return value
